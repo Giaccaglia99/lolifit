@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LOLIFIT Studio</title>
+<link rel="icon" href="/img/icono.jpeg">
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<header>
+<nav class="navbar">
+<h1 class="logo">LOLIFIT Studio</h1>
+
+<ul class="nav-links">
+<li><a href="#inicio">Inicio</a></li>
+<li><a href="#servicios">Servicios</a></li>
+<li><a href="#horarios">Horarios</a></li>
+<li><a href="#contacto">Contacto</a></li>
+</ul>
+
+<div class="menu-btn">
+☰
+</div>
+</nav>
+
+</header>
+
+<!-- HERO -->
+
+<section id="inicio" class="hero">
+<div class="hero-content">
+<h2>TRANSFORMA TU CUERPO</h2>
+<a href="#contacto" class="btn">Agenda tu turno</a>
+</div>
+</section>
+
+<!-- SERVICIOS -->
+
+<section id="servicios" class="services">
+<h2>SERVICIOS</h2>
+
+<div class="service-container">
+
+<div class="service-card reveal">
+<h3>Musculación</h3>
+<p>Equipamiento completo para entrenar fuerza</p>
+</div>
+
+<div class="service-card reveal">
+<h3>Cardio</h3>
+<p>Cinta, clases pensadas para oxidar grasa</p>
+</div>
+
+<div class="service-card reveal">
+<h3>Clases</h3>
+<p>Entrenamiento personalizado exclusivo para mujeres</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- HORARIOS -->
+
+<section id="horarios" class="hours">
+
+<h3>Horarios (Con turno previo)</h3>
+
+<p> Lunes miércoles y viernes de 07:00 a 10:00 y de 14:00 a 19:00</p>
+<p>Martes y jueves de 08:00 a 11:00 y de 16:00 a 21:00</p>
+
+</section>
+
+
+<!-- CONTACTO -->
+
+<section id="contacto" class="contact">
+
+<div class="map">
+
+<h3>Encontranos en:</h3>
+
+<iframe 
+src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.722709430779!2d-63.05249552459833!3d-31.42176507425917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94334dd9fd5f2329%3A0x578826c59fb22fb7!2s25%20de%20Mayo%201020%2C%20X2434%20Arroyito%2C%20C%C3%B3rdoba%2C%20Argentina!5e0!3m2!1ses!2ses!4v1773320540803!5m2!1ses!2ses" 
+width="400" 
+height="300" 
+style="border:0;" 
+allowfullscreen="" 
+loading="lazy" 
+referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+
+</div>
+
+<!-- formulario -->
+
+<div class="contact-info">
+
+<h3>Reservar turno</h3>
+
+<form id="form-reserva" action="https://formsubmit.co/loligiaccagliatin@gmail.com">
+
+<input 
+type="text" 
+name="nombre" 
+placeholder="Nombre y apellido" 
+required
+pattern="^[A-Za-zÁÉÍÓÚáéíóúñÑ]+ [A-Za-zÁÉÍÓÚáéíóúñÑ]+.*"
+title="Ingrese nombre y apellido">
+
+<input type="email" name="email" placeholder="Email" required>
+
+<input type="tel" name="telefono" placeholder="Teléfono" required>
+
+<input type="date" id="fecha" name="fecha" required>
+
+<select class="form-button" name="servicio">
+<option>Musculación</option>
+<option>Clase personalizada</option>
+</select>
+
+<button type="submit" class="btn">Reservar turno</button>
+
+<input type="hidden" name="_captcha" value="false">
+
+
+</form>
+
+<div id="popup" class="popup">
+Reserva enviada correctamente ✔
+</div>
+
+
+<a class="btn whatsapp"
+href="https://wa.me/+5493576477453"
+target="_blank">
+
+WhatsApp
+
+</a>
+
+</div>
+
+</section>
+
+
+<footer>
+
+<p>© 2026 LOLIFIT. Todos los derechos reservados.</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
