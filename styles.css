@@ -302,4 +302,8 @@ display:block;
 flex-direction:column;
 }
 
+.input-form {
+margin-bottom: 5px;    
+}
+
 }
